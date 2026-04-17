@@ -20,8 +20,13 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 18px 0;
+    padding: 10px 0;
+    list-style: none;
+}
 
+.navigation a {
+    text-decoration: none;
+    color: #b46b5f;
 }
 
 .content {
@@ -34,7 +39,6 @@ body {
     list-style: none;
     display: flex;
     gap: 50px;
-    color: #b46b5f;
     font-weight: 800;
 }
 
@@ -79,7 +83,8 @@ body {
     width: 100%;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    font-size: 25px;
+    font-size: 30px;
+    margin-bottom: 8px;
 }
 
 .input {
@@ -89,24 +94,20 @@ body {
     width: 300px;
 }
 
-.email_input, .password_input, input {
-    height: 35px;
+.email_input, .password_input {
+    height: 40px;
     width: 100%;
     padding: 10px;
 }
 
-.password_input {
-    margin-bottom: 5px;
-}
 
 .error_mesage {
-    margin-left: 10px;
     color: #a04637;
     font-size: 15px;
 }
 
 .sign_button {
-    text-align: center;
+    align-self: center;
 }
 
 .btn:hover {

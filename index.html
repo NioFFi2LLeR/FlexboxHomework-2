@@ -7,46 +7,39 @@
     <title>ДЗ 2</title>
 </head>
 <body>
-    <div class="container">
-        <div class="navigation">
-            <div class="name">Flexbox</div>
+    <main class="container">
+        <ul class="navigation">
+            <li class="name"><a href="#">Flexbox</a></li>
 
-            <div class="content">
+            <li class="content">
                 <ul>
-                    <li>About</li>
-                    <li>Works</li>
-                    <li>Blog</li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">Blog</a></li>
                 </ul>
-            </div>
+            </li>
 
-            <div class="contact_button">
+            <li class="contact_button">
                 <button class="btn">Contact</button>
-            </div>
-        </div>
+            </li>
+        </ul>
 
-        <div class="authorization">
+        <section class="authorization">
             <div class="card_authorization">
-                <div class="action">Sign in to account</div>
-    
-                <div class="input">
-                    <div class="email_input">
-                        <input type="email" placeholder="Email">
-                    </div>
-            
-                    <div class="password_input">
-                        <input type="password" placeholder="Password">
-                    </div>
+                
+                <p class="action">Sign in to account</p>
 
-                    <div class="error_mesage">
-                        Forgot email or password?
-                    </div>
-                </div>
-    
-                <div class="sign_button">
-                    <button class="btn" type="submit">Sign In</button>
-                </div>
+                <form class="input">
+                    <input class="email_input" type="email" placeholder="Email">
+            
+                    <input class="password_input" type="password" placeholder="Password">
+
+                    <p class="error_mesage"> Forgot email or password?</p>
+
+                    <button class="btn sign_button" type="submit">Sign In</button>
+                </form>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
 </body>
 </html>
